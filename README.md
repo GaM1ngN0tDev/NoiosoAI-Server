@@ -5,10 +5,19 @@ What Is This One? It Hosts A LLM Thats Compatible For Everything Like Control De
 
 ## Map For How It Works:
 
-[ NoiosoAI (User NoiosoAI-Desktop) ]       ───(Sends chat prompts)───►   [ Server (LLM Noioso Ollama Host) ]
-                                                                      │
-                                                           (Thinks & calls tools)
-                                                                      │
-                                                                      ▼
-[Server (Executor) ]     ◄───(Runs OS commands)────   [ Python Agent Web Script ]
+[ NoiosoAI (User NoiosoAI-Desktop) ]       
+
+───(Sends chat prompts)───►   
+
+[ Server (LLM Noioso Ollama Host) ]
+                                                                      
+(Thinks & calls tools)
+          │
+          ▼
+[Server (Executor) ]     
+
+◄───(Runs OS commands)────   
+
+[ Python Agent Web Script ]
+
 Runs Everything On The Server For Example When Run A Command Like: "hey ai could you send a email to my friend "email" to say at what time should i be there?" LLM Responds And Executes A Agent Broswer Lightweight And Does The Task For You (this is an example im thinking how does the server have a login to your email it's kinda not safe)

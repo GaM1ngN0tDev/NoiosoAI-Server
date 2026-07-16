@@ -4,19 +4,17 @@ NoiosoAI-Server Is For NoiosoAI-Desktop. (WIP Work In Progress)
 What Is This One? It Hosts A LLM Thats Compatible For Everything Like Control Device On HA (Stil Don't Know If I Should Include This) Search On Websites To Give Best Responds Or Info (if needed)
 
 ## Map For How It Works:
+Map For How It Works:
 
-[ NoiosoAI (User NoiosoAI-Desktop) ]       
+[ NoiosoAI (User NoiosoAI-Desktop) ]
 
-───(Sends chat prompts)───►   
+───(Sends chat prompts)───►
 
 [ Server (LLM Noioso Ollama Host) ]
-                                                                      
-(Thinks & calls tools)
-          │
-          ▼
-[Server (Executor) ]     
 
-◄───(Runs OS commands)────   
+(Thinks & calls tools) │ ▼ [Server (Executor) ]
+
+◄───(Runs OS commands)────
 
 [ Python Agent Web Script ]
 
